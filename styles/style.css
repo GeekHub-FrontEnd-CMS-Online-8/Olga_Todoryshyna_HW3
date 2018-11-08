@@ -1,0 +1,63 @@
+body {
+	font-family: comic sans ms;
+	margin-left: 5%;
+	margin-right: 5%;
+    background-image: url(../img/bg1.png);
+    font-size: 20px;	
+	background-attachment: fixed;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+textarea {
+	width: 40%;
+	height: 80px;
+}
+
+div {
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.6);
+	padding-left: 15px;
+	padding-top: 10px;
+	color: white;
+}
+
+input[type="number"]{
+	border-radius: 10px;
+	text-align: center;
+}
+
+input[type="text"] {
+	border-radius: 10px;
+	text-align: center;
+}
+
+.animals {
+	line-height: 1px;
+}
+
+h4{
+	margin-left: 10%;
+}
+
+ button  {
+	border-radius: 10px;
+	width: 70px;
+	height: 30px;
+	margin-left: 15%;
+	background: black;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	background: black;
+	font-family: comic sans ms;
+	margin-left: 40%;
+	padding: 8px;
+	border-radius: 10px;
+}

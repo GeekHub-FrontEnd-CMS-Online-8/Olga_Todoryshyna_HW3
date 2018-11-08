@@ -1,0 +1,60 @@
+body {
+	font-family: arial;
+	margin-left: 5%;
+	margin-right: 5%;
+    font-size: 15px;	
+	background-attachment: fixed;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+textarea {
+	width: 40%;
+	height: 80px;
+}
+
+legend {
+	font-weight: bold;
+}
+
+#mail {
+	font-weight: bold;
+}
+
+#rek {
+	font-style: italic;
+	line-height: 1px;
+}
+
+#Site {
+	padding: 3px;
+	width: 13%;
+	height: 25px;
+	font-size: 15px;
+}
+
+#position {
+	padding: 3px;
+	font-size: 15px;
+}
+
+input[type="text"] {
+	border-radius: 4px;
+}
+
+input[type="number"]{
+	border-radius: 4px;
+}
+
+button {
+	margin-top: 1%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-family: comic sans ms;
+	margin-left: 40%;
+}

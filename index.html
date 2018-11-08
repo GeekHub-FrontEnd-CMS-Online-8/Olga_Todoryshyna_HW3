@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset="utf-8">
+  <link href="styles/style.css" rel="stylesheet">
+  <title>HW3</title>
+</head>
+<body> 
+  <div class="content">
+   <h1>Lesson "Forms": tags and atributs</h1>
+   <h2> Tell something about yorself</h2>
+   <p>Try create analog form. For demonstration fit quite fictional.</p>
+   <form action="" method="get">
+    <fieldset>
+	   <legend> About Yourself </legend>   
+       <p><label>Your Name: </label>
+	     <input type="text" value="" placeholder="Name"></p>
+	   <p><label>Your Surname: </label>
+	     <input type="text" value="" placeholder="Surname"></p>
+	   <p><label>Your Age: </label>
+	     <input type="number" min="1" max="100" value="" placeholder="1-100">
+		 <label>years old </label></p>
+	   <p><label>Your Sex: </label>
+	     <input type="radio" name="sex" checked="checked" id="m">
+	     <label for="m">Man</label>
+	     <input type="radio" name="sex" id="w">
+	     <label for="w">Woman</label></p>
+	</fieldset> 
+	<fieldset>	
+		<legend> About Your Hobbies</legend>
+		<p><label>What type of holidays do you prefer?</label></p>
+		<p><input type="radio" name="vacation" id="a">
+		  <label for="a">An active hliday</label></p>
+		<p><input type="radio" name="vacation" id="c">
+		  <label for="c">Camping</label></p>
+		<p><input type="radio" name="vacation" id="s">
+		  <label for="s">A staycation </label></p>
+		<p><input type="radio" name="vacation" id="i">
+		  <label for="i">Into the village</label></p>
+		<p><label for="txth"> Your option: </label>
+		  <input type="text" name="hobbie" id="txth"></p>
+		<p><label>What do you like to do in your spare time?</label></p>  
+		<p><input type="checkbox" name="1h" id="p"><label for="p"> To paint </label>
+		</p>
+		<p><input type="checkbox" name="2h" id="t"><label for="t"> To play the musical instrument </label>
+		</p>
+		<p><input type="checkbox" name="3h" id="d"><label for="d"> To do sport </label>
+		</p>
+		<p><input type="checkbox" name="4h" id="r"><label for="r"> To read books </label>
+		</p>
+		<p><input type="checkbox" name="5h" id="k"><label for="k"> To watch films/mult/serials </label>
+		</p>
+		<p><label for="y"> Your option: </label><input type="text" name="4h" id="y">
+		</p>
+		<p> Your comments: </p> 
+		<textarea></textarea>
+	</fieldset> 
+	<h3>А тут перейду на українську мову для різноманіття)</h3>
+	<fieldset>
+	    <legend>Додаткове питання</legend>
+		<label>Які тварини вам подобаються і чому?</label>
+		<p><label > Наприклад: </label><input type="text"  value=" Кошаки "></p>
+		<label for="1t"> 1. </label><input type="text" name="1t" id="1t">
+		<br>
+		<label for="2t"> 2. </label><input type="text" name="2t" id="2t">
+		<br>
+		<label for="3t"> 3. </label><input type="text" name="3t" id="3t">
+		<p> Опишіть чому, чи ще додайте улюблене творіння природи) </p> 
+		<textarea></textarea>
+		<p class="animals">Довгий список різних одомашнених тварин</p>
+		<p class="animals">
+		<select name="animals" id="animals">
+		  <option value="1">Кіт</option>
+		  <option value="2">Собака</option>
+		  <option value="3">Кролик</option>
+		  <option value="4">Павук</option>
+		  <option value="5">Черепаха</option>
+		  <option value="6">Рибка</option>
+		  <option value="7">Єнот</option>
+		  <option value="8">Папуга</option>
+		  <option value="9">Тхір (фретка)</option>
+		  <option value="10">Канарейка</option>
+		  <option value="11">Хом'ячок</option>
+		  <option value="12">Шиншила</option>
+		  <option value="13">Криса</option>
+		  <option value="14">Їжачок</option>
+		  <option value="16">Змія (не ядовита)</option>
+		  <option value="17">Лисиця</option>
+		  <option value="18">Білка</option>
+		  <option value="19">Сова</option>
+		  <option value="20">Хамелеон</option>
+		  <option value="21">Морська свинка</option>
+		  <option value="22">Миша</option>
+		  <option value="23">Норка</option>
+		  <option value="24">Вовк</option>
+		</select>
+		<h4>Натисни на кнопку)</h4>
+	    <p><button class="send">Send</button></p>
+	</fieldset>
+   </form>
+   <p><a href="main.html">Back</a></p>
+  </div> 
+</body>
+</html>

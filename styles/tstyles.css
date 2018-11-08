@@ -1,0 +1,36 @@
+.first {
+	border: 1;
+	width: 100%;
+}
+
+.second {
+	border: 1;
+	width: 50%;
+	height: 200px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.third {
+	
+	width: 50%;
+	height: 200px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-collapse: collapse;
+	
+}
+
+.third td, .third th  {
+	border: 3px solid black;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-family: arial;
+	margin-left: 40%;
+	background: grey;
+	color: white;
+	padding: 7px;
+}

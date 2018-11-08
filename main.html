@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset="utf-8">
+  <link href="styles/styles.css" rel="stylesheet">
+  <title>HW3</title>
+</head>
+<body> 
+   <h1>Урок "Формы": теги и их атрибуты</h1>
+   <h2> Расскажите немного о себе..</h2>
+   <p>Попробуйте создать аналогичную форму. Для целей демонстрации вполне подойдут и вымышленные</p>
+   <form action="" method="get">
+    <fieldset>
+	   <legend> Коротко о себе </legend>   
+	   
+       <p><label>Имя: </label>
+	     <input type="text" value="" placeholder=""></p>
+		 
+	   <p><label>Фамилия: </label>
+	     <input type="text" value="" placeholder=""></p>
+		 
+	   <p><label>Пол: </label>
+	     <input type="radio" name="sex" checked="checked" id="m">
+	     <label for="m">мужской</label>
+		 
+	     <input type="radio" name="sex" id="w">
+	     <label for="w">женский</label></p>
+		 
+	   <p><label>Возраст: </label>
+	     <input type="text">
+		 <label>лет </label></p>
+	</fieldset> 
+	<fieldset>
+	    <legend>Подробнее о себе</legend>
+		<p><input type="radio" name="gender" checked="checked" id="man">
+		<label for="man">Молодой человек</label>
+		<br>
+		<input type="radio" name="gender" id="woman">
+		<label for="woman">Девушка</label></p>
+		
+		<p><input type="number" name="1t" id="1t"><label for="1t"> Дата рождения</label>
+		<br>
+		<input type="text" name="2t" id="2t"><label for="2t"> Семейное положение</label>
+		<br>
+		<input type="text" name="3t" id="3t"><label for="3t"> Социальный статус</label>
+		<br>
+		<input type="text" name="4t" id="4t"><label for="4t">Местожительство</label></p>
+		
+		<h4>Что вы обычно делаете на выходных:</h4>
+		<p><input type="checkbox" name="1h" id="1h"><label for="1h"> Сплю</label>
+		<br>
+		<input type="checkbox" name="2h" id="2h"><label for="2h"> Гуляю с друзьями</label>
+		<br>
+		<input type="checkbox" name="3h" id="3h"><label for="3h"> Хожу на рыбалку</label>
+		<br>
+		<input type="checkbox" name="4h" id="4h"><label for="4h"> Играю в игры</label></p>
+		
+		<h4>Рассказать о формах в книге, посвященной HTML</h4>
+       <p> <select name="Site" id="Site">
+		  <option value="1">Site Frequency:</option>
+		  <option value="2">Site Frequency:</option>
+		  <option value="3">Site Frequency:</option>
+		  <option value="4">Site Frequency:</option>
+		</select></p>		
+		
+		<h4>Сколько книг вы прочитали за всю жизнь:</h4>
+		<input type="radio" name="0-10" id="0-10">
+		<label for="0-10">0-10</label>
+		<br>
+		<input type="radio" name="0-10" id="11-20">
+		<label for="11-20">11-20</label>
+		<br>
+		<input type="radio" name="0-10" id="21-50">
+		<label for="21-50">21-50</label>
+		<br>
+		<input type="radio" name="0-10" id="50+">
+		<label for="50+">50+</label>
+		
+		<h4>Ваши комментарии:</h4>
+		<textarea></textarea>
+		<p> <select name="position" id="position" multiple size="3">
+		  <option value="first">Первая позиция</option>
+		  <option value="second">Вторая позиция</option>
+		  <option value="third">Третья позиция</option>
+		  <option value="fourth">Четвертая позиция</option>
+		</select></p>	
+	</fieldset>	
+	<fieldset>
+	    <legend> И в заключении </legend>
+        <p><input type="random" value="" placeholder="Это поле было введено до вас"></p>
+		
+       <p><label id="mail" >Email: </label>
+	   <br>
+	     <input type="mail" value=""></p>
+		 
+		 <h4>Хотите подписаться на самую модную рассылку спама?</h4>
+		 <p id="rek">Выберите категории</p>
+		  <br>
+		  <input type="checkbox" name="rec">
+		  <label for="rec"> Оборудование</label><br>
+		  <input type="checkbox" name="rec">
+		  <label for="rec"> Как приготовить обеды</label><br>
+		  <input type="checkbox" name="rec">
+		  <label for="rec"> Заработай миллион за два дня!</label><br>
+		  
+		  <h4>На сколько сложная задача:</h4>
+		  <input type="radio" name="hm" checked="checked" id="no">
+		  <label for="no"> Совсем нет</label><br>
+		  <input type="radio" name="hm" id="so-so">
+		  <label for="so-so"> Так себе</label><br>
+		  <input type="radio" name="hm" id="hard">
+		  <label for="hard"> Еле справились</label><br>
+		 </select>
+	</fieldset>
+		<button>Отправить</button>
+   </form>
+   <p><a href="index.html">Just click it</a></p>
+   <p><a href="table.html">Click this and you will fall into the world of tables</a>
+</body>
+</html>
