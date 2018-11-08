@@ -1,10 +1,10 @@
 .first {
-	border: 1;
+	border: 1px;
 	width: 100%;
 }
 
 .second {
-	border: 1;
+	border: 1px;
 	width: 50%;
 	height: 200px;
 	margin: 0 auto;
