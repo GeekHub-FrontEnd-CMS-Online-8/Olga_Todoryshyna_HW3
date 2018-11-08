@@ -87,21 +87,21 @@
 	</fieldset>	
 	<fieldset>
 	    <legend> И в заключении </legend>
-        <p><input type="random" value="" placeholder="Это поле было введено до вас"></p>
+        <p><input type="text" value="" placeholder="Это поле было введено до вас"></p>
 		
-       <p><label id="mail" >Email: </label>
+       <p><label for="mail" >Email: </label>
 	   <br>
-	     <input type="mail" value=""></p>
+	     <input type="text" id="mail" value=""></p>
 		 
 		 <h4>Хотите подписаться на самую модную рассылку спама?</h4>
 		 <p id="rek">Выберите категории</p>
 		  <br>
-		  <input type="checkbox" name="rec">
+		  <input type="checkbox" id="rec" name="rec">
 		  <label for="rec"> Оборудование</label><br>
-		  <input type="checkbox" name="rec">
-		  <label for="rec"> Как приготовить обеды</label><br>
-		  <input type="checkbox" name="rec">
-		  <label for="rec"> Заработай миллион за два дня!</label><br>
+		  <input type="checkbox" id="rec1" name="rec">
+		  <label for="rec1"> Как приготовить обеды</label><br>
+		  <input type="checkbox" id="rec2" name="rec">
+		  <label for="rec2"> Заработай миллион за два дня!</label><br>
 		  
 		  <h4>На сколько сложная задача:</h4>
 		  <input type="radio" name="hm" checked="checked" id="no">
@@ -110,7 +110,7 @@
 		  <label for="so-so"> Так себе</label><br>
 		  <input type="radio" name="hm" id="hard">
 		  <label for="hard"> Еле справились</label><br>
-		 </select>
+		 
 	</fieldset>
 		<button>Отправить</button>
    </form>
